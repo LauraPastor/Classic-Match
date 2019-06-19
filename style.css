@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(black, white);
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#classic {
+  font-family: 'Great Vibes', cursive;
+}
+#match {
+  font-family: 'Special Elite', cursive;
+}
+.info {
+  text-align: justify;
+  text-align: center;
+}
+#actorslist {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 1vw;
+  justify-items: center;
+}
+
+img {
+  width: 9vw;
+  height: 9vw;
+  margin: 5px 5px;
+}
+img:hover {
+  cursor: pointer;
+}
+.frameselector {
+  text-align: center;
+}
+.frameselector * {
+  display: inline-block;
+}
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+#playbutton {
+  background-image: url("interactividad/noun_play_2602160.png");
+}
+.popup {
+  position: absolute;
+  top: 100px;
+  left: 25%;
+  background-color: red;
+}
+.hide {
+  display: none;
+}

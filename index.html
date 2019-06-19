@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Classic Match</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Special+Elite&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<h1  class"title"><span id="classic">Classic</span> <span id="match">Match</span> </h1>
+  <p class="info">
+    Classic Hollywood has so many memorable movies, and yet some actors never happened to meet in a scene. Here's your oportunity to see new clips with your black and whites heroes!</p>
+    <p>Just make you choice and press play.</p>
+<div id="actorslist">
+
+
+            <img class="actors" id="connor" src="interactividad/donald o_connor.jpg" alt="actors">
+            <img class="actors" id="dumont" src="interactividad/margaret dumont.jpg" alt="actors">
+            <img class="actors" id="rains" src="interactividad/claude rains.jpg" alt="actors">
+            <img class="actors" id="myrna" src="interactividad/myrna loy.jpg" alt="actors">
+            <img class="actors" id="douglas" src="interactividad/Kirk Douglas.jpg" alt="actors">
+            <img class="actors" id="rogers" src="interactividad/ginger rogers.jpg" alt="actors">
+            <img class="actors" id="price" src="interactividad/vincent price.jpg" alt="actors">
+            <img class="actors" id="lombard" src="interactividad/carole lombard.jpg" alt="actors">
+
+
+      </div>
+      <div class="hide" id="popup" onclick="togglePopup">
+        <iframe id="videoIframe" width="854" height="480"
+          src="">
+        </iframe>
+      </div>
+      <div class="frameselector">
+        <img id="leftframe" src="" alt="actorselected" data-idActor="">
+          <button class="hide" id="videoUrl">
+            <img src="interactividad/noun_play_2602160.png">
+           </button>
+        <img id="rightframe" src="" alt="actorselected" data-idActor="">
+
+<!--
+TODO upload to github
+TODO popup in video and player; https://codepen.io/arturparkhisenko/pen/KwYBNb
+TODO imagen "broken" con placeholder;
+TODO
+-->
+<!-- TODO https://www.w3schools.com/jsref/event_onclick.asp -->
+      </div>
+
+<script src="script.js"></script>
+  </body>
+</html>
